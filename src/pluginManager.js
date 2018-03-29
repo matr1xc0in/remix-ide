@@ -55,7 +55,7 @@
  *    {
  *      id: <requestid>,
  *      action: 'request',
- *      key: 'editor',
+ *      key: 'config',
  *      type: 'getConfig',
  *      value: ['filename.ext']
  *    }
@@ -63,7 +63,7 @@
  *    {
  *      id: <requestid>,
  *      action: 'response',
- *      key: 'editor',
+ *      key: 'config',
  *      type: 'getConfig',
  *      error,
  *      value: ['content of filename.ext']
